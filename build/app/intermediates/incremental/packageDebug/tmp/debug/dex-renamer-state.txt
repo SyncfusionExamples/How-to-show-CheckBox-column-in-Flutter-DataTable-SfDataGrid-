@@ -1,0 +1,4 @@
+#Wed May 26 18:46:47 IST 2021
+base.0=D\:\\may_2021\\FLUT-4715-check_box_kb\\datagrid_checkbox_column\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
