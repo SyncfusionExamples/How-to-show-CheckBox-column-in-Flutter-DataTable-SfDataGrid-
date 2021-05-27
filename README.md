@@ -1,4 +1,4 @@
-# How-to-show-CheckBox-column-in-Flutter-DataTable-SfDataGrid
+# How to show CheckBox column in Flutter DataTable SfDataGrid
 
 The Flutter DataTable widget provides support to load any type of widget in each cell. Show the checkbox column by returning the Checkbox widget for specific column which requires the Checkbox operation in DataGridSource.buildRow method.
 
