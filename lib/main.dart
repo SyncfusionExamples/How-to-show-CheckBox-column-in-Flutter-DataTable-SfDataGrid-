@@ -47,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SfDataGrid(
         source: productDataSource,
         columns: <GridColumn>[
-          GridTextColumn(
+          GridColumn(
               columnName: 'id',
               width: 80,
               label: Container(
@@ -56,21 +56,21 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text(
                     'ID',
                   ))),
-          GridTextColumn(
+          GridColumn(
               columnName: 'product',
               width: 120,
               label: Container(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
                   alignment: Alignment.center,
                   child: Text('Product'))),
-          GridTextColumn(
+          GridColumn(
               columnName: 'price',
               width: 75,
               label: Container(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
                   alignment: Alignment.center,
                   child: Text('Price'))),
-          GridTextColumn(
+          GridColumn(
               columnName: 'isAvailble',
               width: 150,
               label: Container(
@@ -179,7 +179,7 @@ class ProductDataSource extends DataGridSource {
               row.getCells()[3] =
                   DataGridCell(value: value, columnName: 'isAvailable');
               notifyDataSourceListeners(
-                  rowColumnIndex: RowColumnIndex(index , 3));
+                  rowColumnIndex: RowColumnIndex(index, 3));
             },
           ))
     ]);

@@ -80,7 +80,7 @@ Initialize the SfDataGrid with all the required properties.
       body: SfDataGrid(
         source: productDataSource,
         columns: <GridColumn>[
-          GridTextColumn(
+          GridColumn(
               columnName: 'id',
               width: 80,
               label: Container(
@@ -89,21 +89,21 @@ Initialize the SfDataGrid with all the required properties.
                   child: Text(
                     'ID',
                   ))),
-          GridTextColumn(
+          GridColumn(
               columnName: 'product',
               width: 120,
               label: Container(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
                   alignment: Alignment.center,
                   child: Text('Product'))),
-          GridTextColumn(
+          GridColumn(
               columnName: 'price',
               width: 75,
               label: Container(
                   padding: EdgeInsets.symmetric(horizontal: 16.0),
                   alignment: Alignment.center,
                   child: Text('Price'))),
-          GridTextColumn(
+          GridColumn(
               columnName: 'isAvailble',
               width: 150,
               label: Container(
